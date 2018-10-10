@@ -1,0 +1,14 @@
+---
+title: "class_2018-10-10"
+author: "Esteban Arellano"
+date: "10/10/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+fall2018 <- read_csv("class_enrollment_summary_by_term_10.10.18.csv")
+fall2017 <- read_csv("class_enrollment_summary_by_term_10.20.17.csv")
+```
+
